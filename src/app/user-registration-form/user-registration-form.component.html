@@ -1,28 +1,59 @@
 <mat-card>
-  <mat-card-header>
-    <mat-card-title>Sign Up!</mat-card-title>
-  </mat-card-header>
-  <mat-card-content>
-    <form>
-      <mat-form-field>
-        <input matInput [(ngModel)]="userData.Username" placeholder="Username" type="text" name="Username" required>
-        <mat-hint align="end"> Min 5 char- 1 capital letter</mat-hint>
-      </mat-form-field>
-      <mat-form-field>
-        <input matInput [(ngModel)]="userData.Password" type="password" placeholder="Password" name="Password" required>
-        <mat-hint align="end"> Min 8 char-1 num-1 letter</mat-hint>
-      </mat-form-field>
-      <mat-form-field>
-        <input matInput [(ngModel)]="userData.Email" type="email" placeholder="Email" name="Email" required>
-      </mat-form-field>
-      <mat-form-field>
-        <input matInput [(ngModel)]="userData.Birthday" type="date" placeholder="Birthday" name="Birthday">
-      </mat-form-field>
-    </form>
-  </mat-card-content>
-  <mat-card-actions>
-    <button mat-raised-button (click)="registerUser()" color="primary">
-      Sign Up
-    </button>
-  </mat-card-actions>
+    <mat-card-header class="card-header">
+        <mat-card-title>Sign Up</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+        <form>
+            <mat-form-field class="form-inputs">
+                <input
+                    matInput
+                    [(ngModel)]="userData.Username"
+                    placeholder="Username"
+                    type="text"
+                    name="Username"
+                    required
+                >
+            </mat-form-field>
+            <mat-form-field class="form-inputs">
+                <input
+                    matInput
+                    [(ngModel)]="userData.Password"
+                    placeholder="Password"
+                    type="password"
+                    name="Password"
+                    required
+                >
+            </mat-form-field>
+            <mat-form-field class="form-inputs">
+                <input
+                    matInput
+                    [(ngModel)]="userData.Email"
+                    placeholder="Email"
+                    type="email"
+                    name="Email"
+                    required
+                >
+            </mat-form-field>
+            <mat-form-field class="form-inputs">
+                <input
+                    matInput
+                    [(ngModel)]="userData.Birthday"
+                    placeholder="Birthday"
+                    type="date"
+                    name="Birthday"
+                    required
+                >
+            </mat-form-field>
+        </form>
+    </mat-card-content>
+    <mat-card-actions>
+        <button
+            mat-raised-button
+            (click)="registerUser()"
+            class="button-profile"
+            color="primary"
+        >
+            Sign Up
+        </button>
+    </mat-card-actions>
 </mat-card>

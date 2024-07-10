@@ -1,6 +1,6 @@
 # MyFlix - A movie database app built with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5. This project was created as part of the curriculum for the Full Stack Web Development Program at Career Foundry , the worst online program I have ever had the misfortune of being swindled by. I cannot warn anyone against enrolling in this criminal program strongly enough. 
 
 ## Development server
 
