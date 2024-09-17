@@ -1,34 +1,20 @@
 # MyFlix - A movie database app built with Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5. This project was created as part of the curriculum for the Full Stack Web Development Program at Career Foundry , the worst online program I have ever had the misfortune of being swindled by. I cannot warn anyone against enrolling in this criminal program strongly enough. 
+This project was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry] (https://careerfoundry.com/en/courses/become-a-web-developer/) [^1]. It is a client-side / Front-End, User Interface, built  with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5 and Google's Material Design for previously created server-side component of a movie themed MEAN Single Page Application. Currently hosted on GitHub Pages.
 
-Here’s an exact quote from the instruction for an assignment in which using TypeDoc is a requirement:
+Pre-existing Server Side Back-End source code can be viewed here: (https://github.com/notavailable4u/movie_api-2).
 
-> “Spend a little time familiarizing yourself with TypeDoc first, since we didn’t cover it in the Exercise”
+[^1]: If you are considering enrolling in the Full Stack Web Development Program at Career Foundry, I cannot strongly enough caution you to NOT ENROLL. The lessons are filled with so much deprecated code and blatant errors that it is criminal. Feel free to contact me if you would like more detailed information.
 
-I paid $8,000 to be told. “Go figure this out somewhere else on your own – but we here at CareerFoundry will still have the audacity to make something which we did not teach a requirement to pass the course.”
-Crooks. Absolute crooks.
+## Project Key Feature Requirements
++ App should display a welcome view where users will be able to either log in or register an account.
++  Once authenticated, user should now view all movies.
++ Upon clicking on a particular movie, users will be taken to a Single Movie View, where additional movie details will be displayed.
++ The Single Movie View will contain the following additional features:
+  - A button that, when clicked, takes a user to the Director View, where details about the director of that particular movie will be displayed. 
+  - A button that, when clicked, takes a user to the Genre View, where details about that particular genre of the movie will be displayed.
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## Project Languages and Technologies Used
++ MEAN (MongoDB, Express, Angular, Node.jz)
++ Material Design - Angular Material
++ Typescript

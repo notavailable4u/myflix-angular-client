@@ -120,7 +120,7 @@
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
           "options": {
-            "baseHref": "https://notavailable4u.github.io/myflix-angular-client/welcome",
+            "baseHref": "https://notavailable4u.github.io/myflix-angular-client",
             "repo": "https://github.com/notavailable4u/myflix-angular-client"
           }
         }
