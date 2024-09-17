@@ -15,6 +15,6 @@ Pre-existing Server Side Back-End source code can be viewed here: (https://githu
   - A button that, when clicked, takes a user to the Genre View, where details about that particular genre of the movie will be displayed.
 
 ## Project Languages and Technologies Used
-+ MEAN (MongoDB, Express, Angular, Node.jz)
++ MEAN (MongoDB, Express, Angular, Node.js)
 + Material Design - Angular Material
 + Typescript
