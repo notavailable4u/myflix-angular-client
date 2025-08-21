@@ -1,6 +1,6 @@
 # MyFlix - A movie database app built with Angular
 
-This project was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry] (https://careerfoundry.com/en/courses/become-a-web-developer/) [^1]. It is a client-side / Front-End, User Interface, built  with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5 and Google's Material Design for previously created server-side component of a movie themed MEAN Single Page Application. Currently hosted on GitHub Pages.
+This project was created as part of the curriculum for the Full Stack Web Development Program at [Career Foundry] (https://careerfoundry.com/en/courses/become-a-web-developer/) [^1] and as a result, it is a non-functional mess. Someday I will find the time to refactor and fix it.  It is meant to be a client-side / Front-End, User Interface, built  with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.5 and Google's Material Design for previously created server-side component of a movie themed MEAN Single Page Application. Hopefully one day it will be. Currently hosted on GitHub Pages.
 
 Pre-existing Server Side Back-End source code can be viewed here: (https://github.com/notavailable4u/movie_api-2).
 
